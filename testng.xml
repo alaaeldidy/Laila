@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite" Browser="Chrome">
+  <test name="Trail">
+    <classes>
+      <class name="tests.Registertest"/>
+      <class name="tests.Logintest"/>
+      <class name="tests.Searchtest"/>
+      <class name="tests.Search2test"/>
+      <class name="tests.Addtocarttest"/>
+       <class name="tests.Contacttest"/>
+       <class name="tests.Hovertest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
