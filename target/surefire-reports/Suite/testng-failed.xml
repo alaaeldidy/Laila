@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <test thread-count="5" name="Trail(failed)" verbose="0">
+    <classes>
+      <class name="tests.Registertest">
+        <methods>
+          <include name="userregistertest"/>
+          <include name="usertakescreen"/>
+          <include name="usercloseurl"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- tests.Registertest -->
+      <class name="tests.Logintest">
+        <methods>
+          <include name="userlogintest"/>
+          <include name="usertakescreen"/>
+          <include name="usercloseurl"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- tests.Logintest -->
+    </classes>
+  </test> <!-- Trail(failed) -->
+</suite> <!-- Failed suite [Suite] -->

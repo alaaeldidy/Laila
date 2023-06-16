@@ -1,0 +1,10 @@
+pages\Contactpage.class
+pages\Productpage.class
+data\DataExcelReader.class
+pages\Hoverpage.class
+pages\Homepage.class
+pages\Loginpage.class
+pages\Registerpage.class
+pages\Pagebase.class
+pages\Tablepage.class
+pages\Search2page.class

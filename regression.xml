@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="false" name="Suite" Browser="Chrome">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression" >
+<parameter name="browser" value="chrome" />
   <test name="Trail">
     <classes>
-      <class name="tests.Registertest"/>
-      <class name="tests.Logintest"/>
       <class name="tests.Searchtest"/>
       <class name="tests.Search2test"/>
       <class name="tests.Addtocarttest"/>
@@ -12,3 +11,5 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
