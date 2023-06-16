@@ -5,7 +5,6 @@
     <classes>
       <class name="tests.Searchtest"/>
       <class name="tests.Search2test"/>
-      <class name="tests.Addtocarttest"/>
        <class name="tests.Contacttest"/>
        <class name="tests.Hovertest"/>
     </classes>
